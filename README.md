@@ -166,3 +166,9 @@ This practical demonstrates:
 - Viewing Output using Debug Logs
 
 This practical provides basic understanding of Apex programming in Salesforce.
+
+![Step 1](images/1.png)
+![Step 2](images/2.png)
+![Step 3](images/3.png)
+![Step 4](images/4.png)
+![Step 5](images/5.png)
