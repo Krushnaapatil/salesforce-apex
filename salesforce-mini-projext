@@ -1,0 +1,367 @@
+# Design and Develop Custom Application (Mini Project) using Salesforce Cloud
+
+## Aim
+To design and develop a custom mini project application using Salesforce Cloud for managing a Student Library Management System.
+
+---
+
+# Software Requirements
+- Internet Connection
+- Web Browser (Chrome / Edge / Firefox)
+- Salesforce Developer Account
+
+---
+
+# Theory
+Salesforce is a cloud-based CRM platform used for developing scalable business applications.
+
+Custom Objects in Salesforce allow users to create database tables according to application requirements. These objects can contain fields, tabs, records, and relationships.
+
+In this practical, a custom application named **Library Management System** is created using:
+- Custom Objects
+- Custom Fields
+- Tabs
+- Lightning Application
+
+---
+
+# Mini Project Title
+## Student Library Management System
+
+---
+
+# Steps to Perform the Practical
+
+# Step 1: Create Salesforce Developer Account
+
+1. Open the Salesforce Developer Signup page:
+   https://developer.salesforce.com/signup
+
+2. Fill in the required details:
+   - Name
+   - Email
+   - Username
+   - Company Name
+
+3. Verify your email and log in to Salesforce.
+
+---
+
+# Step 2: Create Custom Objects
+
+1. On Salesforce Dashboard click:
+   - Setup
+   - Object Manager
+
+2. Click on:
+```text
+Create → Custom Object
+```
+
+3. Fill the details for the first object.
+
+## Object 1: Book
+
+| Field | Value |
+|---|---|
+| Label | Book |
+| Plural Label | Books |
+| Description | Stores information about books |
+
+4. Click:
+```text
+Save & New
+```
+
+---
+
+## Object 2: Student
+
+| Field | Value |
+|---|---|
+| Label | Student |
+| Plural Label | Students |
+| Description | Stores information about students |
+
+5. Click:
+```text
+Save
+```
+
+6. Newly created objects will appear in Object Manager.
+
+---
+
+# Step 3: Add Fields to Book Object
+
+1. Go to:
+```text
+Object Manager → Book
+```
+
+2. Click:
+```text
+Fields & Relationships → New
+```
+
+3. Select:
+```text
+Text
+```
+
+4. Click:
+```text
+Next
+```
+
+---
+
+## Field 1: Author Name
+
+| Property | Value |
+|---|---|
+| Field Label | Author Name |
+| Length | 20 |
+| Field Name | Author_Name |
+| Description | We can add author name |
+
+5. Check:
+```text
+Required
+```
+
+6. Click:
+```text
+Next → Next → Save & New
+```
+
+---
+
+## Field 2: Publisher
+
+| Property | Value |
+|---|---|
+| Field Label | Publisher |
+| Length | 30 |
+| Field Name | Publisher |
+
+7. Click:
+```text
+Next → Next → Save
+```
+
+---
+
+# Step 4: Add Field to Student Object
+
+1. Go to:
+```text
+Object Manager → Student
+```
+
+2. Click:
+```text
+Fields & Relationships → New
+```
+
+3. Select:
+```text
+Text
+```
+
+4. Click:
+```text
+Next
+```
+
+---
+
+## Field: Class
+
+| Property | Value |
+|---|---|
+| Field Label | Class |
+| Length | 10 |
+| Field Name | Class |
+| Description | Add year of student |
+
+5. Click:
+```text
+Next → Next → Save
+```
+
+---
+
+# Step 5: Create Tabs for Objects
+
+1. Click on:
+```text
+Setup
+```
+
+2. In Quick Find search:
+```text
+Tabs
+```
+
+3. Open:
+```text
+Tabs → New
+```
+
+---
+
+## Create Tab for Book
+
+| Property | Value |
+|---|---|
+| Object | Book |
+| Tab Style | Bottle |
+
+4. Click:
+```text
+Next → Next → Save
+```
+
+---
+
+## Create Tab for Student
+
+| Property | Value |
+|---|---|
+| Object | Student |
+| Tab Style | Computer |
+
+5. Click:
+```text
+Next → Next → Save
+```
+
+---
+
+# Step 6: Create Lightning Application
+
+1. Click on:
+```text
+Setup
+```
+
+2. Search:
+```text
+App Manager
+```
+
+3. Click:
+```text
+New Lightning App
+```
+
+---
+
+## App Details & Branding
+
+| Property | Value |
+|---|---|
+| App Name | Library Management System |
+| Developer Name | Library_Management_system |
+| Description | Student Library Management Application |
+| Image | spider.jpg |
+| Primary Color | #0070D2 |
+
+4. Click:
+```text
+Next → Next → Next
+```
+
+---
+
+## Add Navigation Items
+
+Select the following tabs:
+- Students
+- Books
+- Contacts
+- Dashboards
+- Entitlements
+
+5. Click:
+```text
+Next
+```
+
+---
+
+## User Profile
+
+Select:
+```text
+System Administrator
+```
+
+6. Click:
+```text
+Save & Finish
+```
+
+---
+
+# Step 7: Open the Application
+
+1. Click on the Grid Icon (App Launcher) available at the top-left corner beside Setup.
+
+2. Search:
+```text
+Library Management System
+```
+
+3. Open the application.
+
+---
+
+# Step 8: Create Records
+
+## Add Student Entries
+Create two student records.
+
+Example:
+| Student Name | Class |
+|---|---|
+| Rahul | TYCO |
+| Priya | SYCO |
+
+---
+
+## Add Book Entries
+Create two book records.
+
+Example:
+| Book Name | Author Name | Publisher |
+|---|---|---|
+| Java Programming | James Gosling | Oracle |
+| Python Basics | Guido van Rossum | O'Reilly |
+
+---
+
+# Expected Output
+- Custom objects Student and Book created successfully.
+- Custom fields added successfully.
+- Tabs created successfully.
+- Lightning App created successfully.
+- Student and Book records displayed in the application.
+
+---
+
+# Result
+The custom mini project application **Student Library Management System** was successfully designed and developed using Salesforce Cloud.
+
+---
+
+# Conclusion
+This practical demonstrates:
+- Creation of Custom Objects
+- Creation of Custom Fields
+- Tab Configuration
+- Lightning App Development
+- Record Management in Salesforce
+
+The project provides practical understanding of cloud-based application development using Salesforce.
